@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS选择器</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding:0;
+        } */
+        .size,h1,p,#div1{
+            width: 200px;
+            height: 200px;
+            background-color: greenyellow;
+        }
+        /* .red{
+            color: red;
+        }
+        .center{
+            text-align: center;
+        } */
+        /* p{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        } */
+        /* div{
+            width: 200px;
+            height: 200px;
+            background-color: greenyellow;
+        }
+        .size{
+            width: 200px;
+            height: 200px;
+        } */
+
+        ol,ul,li{
+            /* 清除列表的默认样式 */
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul>li{
+            width: 500px;
+            height: 200px;
+            background-color: greenyellow;
+        }
+        ol>li{
+            width: 300px;
+            height: 20px;
+            background-color: pink;
+        }
+        ul li{
+             margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+        <ul>
+            <li>
+                <ol>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </li>
+        </ul>
+
+
+    <p class="size"></p>
+    <div class="size"></div>
+    <p></p>
+    
+
+    <!-- <h1 class="red center">
+        CSS选择器
+    </h1>
+    <p class="red">
+        我们都一样
+    </p>
+    <div class="red">
+        都一样
+    </div> -->
+</body>
+</html>

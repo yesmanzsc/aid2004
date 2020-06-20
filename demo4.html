@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪类选择器</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            /*transition 过渡 
+             当元素的样式发生变化时 变化会在0.5s内完成*/
+            transition: all 0.5s;
+        }
+        /* 16:17~16:30 */
+       #div1:hover{
+            /* 匹配 id为div1的元素的鼠标划过时的状态 */
+            width: 300px;
+            background-color: red;
+       }
+       #div1>ul>li{}
+    </style>
+</head>
+<body>
+    <!-- div#header + tab  -->
+    <div id="header">
+
+    </div>
+    <div id="div1">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div id="footer">
+        
+    </div>
+</body>
+</html>
